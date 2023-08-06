@@ -1,0 +1,293 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\overfullrule=0pt
+\usepackage[colorlinks=false,draft=false]{hyperref}
+
+\usepackage{xcolor}
+% \usepackage{verbatim}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\definecolor{blue}{HTML}{005cc5}
+\definecolor{lightblue}{HTML}{126180}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand\fbox{\fcolorbox{red}{white}}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.4in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\Large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheadingBold}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{\small#1} & \textbf{}{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textit{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape \textcolor{blue}{ Sukrit Sethi}} \\ \vspace{5pt}
+    % 123 Street Name, Town, State 12345 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 7503232413 ~ \href{mailto:sukritsethi18@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  sukritsethi18@gmail.com} ~ 
+    \href{https://https://www.linkedin.com/in/sukritsethi18/}{\raisebox{-0.2\height}\faLinkedin\ Sukrit Sethi}  ~
+    \href{https://github.com/SukritSethi}{\raisebox{-0.2\height}\faGithub\ SukritSethi  }
+    \href{https://www.sukritsethi.xyz}{\raisebox{-0.2\height}\faGlobe\ www.sukritsethi.xyz}
+    \vspace{-8pt}
+\end{center}\vspace{-15pt}
+\vspace{5pt}
+
+
+%-----------EDUCATION-----------
+    \section{\Large \textcolor{blue}{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Thapar Institute of Engineering And Technology}{Patiala, Punjab}
+      {B.E. Electronics and Computers }{May 2020 -- May 2024}
+    
+      \vspace{-18pt} 
+      \resumeSubheading{}{}  
+      {Courses of Interest: OOPS, Data Structures, Computer Networks, DBMS, Cyber Security}
+      {CGPA: 8.03}
+    \resumeSubheading
+      {Amity International School}{Gurugram, Haryana}
+      {12th CBSE}{2020}
+    
+      \vspace{-18pt} 
+      \resumeSubheading{}{}  
+      {}
+      {Percentage: 95.8\%}
+      \vspace{-15pt}
+  \resumeSubHeadingListEnd
+
+% %------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+\section{\Large \textcolor{blue}{Projects}}
+     \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{NFT Tracking Chrome Extension}   \href{}{\textbf{\textcolor{gray}{}}}
+           \href{}{\textbf{\textcolor{lightblue}{}}}}{August'23}
+          \resumeItemListStart
+            \resumeItem{Chrome extension with authentication allowing users to track their NFTs' market standings with an admin portal to customize the contracts they want to track.}
+            \resumeItem{Repository: https://github.com/SukritSethi/trackNFTs}
+            \resumeItem{\textcolor{blue}{Tech Stack} \emph{ReactJs, NodejS, Firebase, Manifest v3, VerbwireAPI, Vercel}}
+            
+            
+            \vspace{-5pt}
+          \resumeItemListEnd
+    \vspace{-10pt}
+      \resumeProjectHeading
+          {\textbf{ChatApp: A real time chat app} \href{    }{\textbf{\textcolor{gray}{}}}
+          \href{}{\textbf{\textcolor{lightblue}{}}}}{March'23}
+          \resumeItemListStart
+            \resumeItem{ Learned about web sockets and built a peer to peer chat app using socket.io with a ReactJs frontend and a NodeJs powered backend.}
+            \resumeItem{Frontend: https://github.com/SukritSethi/ChatApp-Client}
+            \resumeItem{Backend: https://github.com/SukritSethi/ChatApp-Server}
+            \resumeItem{\textcolor{blue}{Tech Stack} \emph{ReactJs, NodeJs, ExpressJs, Socket.io}}
+             \vspace{-5pt}
+          \resumeItemListEnd
+
+        % VITA rest API project
+          
+          
+        
+        % VITA rest API project
+          \vspace{-10pt}
+          \resumeProjectHeading
+          {\textbf{Online Code Editor}   \href{}{\textbf{\textcolor{gray}{}}}
+           \href{}{\textbf{\textcolor{lightblue}{}}}}{Feb'23}
+          \resumeItemListStart
+            \resumeItem{React based web app that allows user to write, edit and run their html, css and javascript code in a single window}
+            \resumeItem{Respository: https://github.com/SukritSethi/dev-in-browser}
+            \resumeItem{\textcolor{blue}{Tech Stack} \emph{ReactJs, Codemirror, Chrome Local Storage}}
+            
+            
+            \vspace{-15pt}
+          \resumeItemListEnd
+        %   CODE FORCES DIARY PROJECT
+          \resumeProjectHeading
+              {\textbf{Mental Health Discord Bot} \href{}{\textbf{\textcolor{gray}{}}}
+               \href{}{\textbf{\textcolor{lightblue}{}}}}{Jan'23}
+              \resumeItemListStart
+                \resumeItem{JavaScript based discord bot that assists in bettering the users' mental health}
+                \resumeItem{Repository : https://github.com/SukritSethi/Mental-Health-Bot}
+                \resumeItem{\textcolor{blue}{Tech Stack} \emph{NodeJs, DiscordJs}}
+              \resumeItemListEnd           
+              \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%-------------IKARUS-------------------
+\section{\Large \textcolor{blue}{Experience}}
+     \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Ikarus3D} \href{    }{\textbf{\textcolor{gray}{}}}
+          \href{}{\textbf{\textcolor{lightblue}{}}}}{Jun 2022- Nov 2022}
+          \resumeItemListStart
+            \resumeItem{  Designed and developed the first MVP iteration of the organization’s new venture, ”Ikarus Nest”. Worked in \textbf{Figma},
+\textbf{ReactJs} and \textbf{Django}.}
+            \resumeItem{Handled the containerization and deployment of the MVP. Used \textbf{Docker} and \textbf{Amazon Web Services}.}
+            \resumeItem{Developed custom web-components to be integrated in Nest. Worked in \textbf{ReactJs} and \textbf{Typescript}.}
+            \resumeItem{\textcolor{blue}{Tech Stack} \emph{Typescript, ReactJS, Redux, Django Rest Framework, Material UI, Figma, Docker, AWS}}
+             \vspace{-5pt}
+          \resumeItemListEnd       
+          
+\vspace{-5pt}
+
+
+
+%-----------EXPERIENCE-----------
+\section{\Large \textcolor{blue}{Positions of Responsibility}}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {OWASP}{}
+      {Logistics Secretary}{}
+      \vspace{+1pt}
+      \resumeItemListStart
+        \resumeItem{Helped organize HackOwasp4.0, an MLH partner hackathon}
+        \resumeItem{Contributed to society's open source projects}
+        \resumeItem{Conducted workshops to teach juniors about tools such as Git and GitHub}
+        \resumeItemListEnd
+        
+         \vspace{+5pt}
+     
+        %-----------PROGRAMMING SKILLS-----------
+        \section{\textcolor{blue}{Technical Skills}}
+            \vspace{2pt}
+        \begin{itemize}[leftmargin=0.0in, label={}]
+              \normalsize{\item{
+              \textbf{Languages}{: JavaScript, TypeScript, HTML/CSS, C++, C\#, SQL, Python} \\
+        	 \vspace{4pt}
+              \textbf{Developer Tools}{: VS Code, Vim, Git, GitHub, Matlab, Unity3D, Figma} \\
+        	\vspace{4pt}
+              \textbf{Technologies/Frameworks}{: React, Node, Express, Django, Firebase, MongoDB, Flask, Docker, Nginx} \\
+            \vspace{4pt}
+              \textbf{Coding Profile}{: \href{https://leetcode.com/SukritSethi/}{\underline{\textbf{\textcolor{lightblue}{Leetcode}}}} \href{}{\underline{\textbf{\textcolor{lightblue}{}}}} } \\
+            }}
+        \end{itemize}
+    \end{document}
