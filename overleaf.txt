@@ -183,76 +183,23 @@
 
 
 
-%-----------PROJECTS-----------
-\section{\Large \textcolor{blue}{Projects}}
-     \vspace{-5pt}
-    \resumeSubHeadingListStart
-    \resumeProjectHeading
-          {\textbf{NFT Tracking Chrome Extension}   \href{}{\textbf{\textcolor{gray}{}}}
-           \href{}{\textbf{\textcolor{lightblue}{}}}}{August'23}
-          \resumeItemListStart
-            \resumeItem{Chrome extension with authentication allowing users to track their NFTs' market standings with an admin portal to customize the contracts they want to track.}
-            \resumeItem{Repository: https://github.com/SukritSethi/trackNFTs}
-            \resumeItem{\textcolor{blue}{Tech Stack} \emph{ReactJs, NodejS, Firebase, Manifest v3, VerbwireAPI, Vercel}}
-            
-            
-            \vspace{-5pt}
-          \resumeItemListEnd
-    \vspace{-10pt}
-      \resumeProjectHeading
-          {\textbf{ChatApp: A real time chat app} \href{    }{\textbf{\textcolor{gray}{}}}
-          \href{}{\textbf{\textcolor{lightblue}{}}}}{March'23}
-          \resumeItemListStart
-            \resumeItem{ Learned about web sockets and built a peer to peer chat app using socket.io with a ReactJs frontend and a NodeJs powered backend.}
-            \resumeItem{Frontend: https://github.com/SukritSethi/ChatApp-Client}
-            \resumeItem{Backend: https://github.com/SukritSethi/ChatApp-Server}
-            \resumeItem{\textcolor{blue}{Tech Stack} \emph{ReactJs, NodeJs, ExpressJs, Socket.io}}
-             \vspace{-5pt}
-          \resumeItemListEnd
-
-        % VITA rest API project
-          
-          
-        
-        % VITA rest API project
-          \vspace{-10pt}
-          \resumeProjectHeading
-          {\textbf{Online Code Editor}   \href{}{\textbf{\textcolor{gray}{}}}
-           \href{}{\textbf{\textcolor{lightblue}{}}}}{Feb'23}
-          \resumeItemListStart
-            \resumeItem{React based web app that allows user to write, edit and run their html, css and javascript code in a single window}
-            \resumeItem{Respository: https://github.com/SukritSethi/dev-in-browser}
-            \resumeItem{\textcolor{blue}{Tech Stack} \emph{ReactJs, Codemirror, Chrome Local Storage}}
-            
-            
-            \vspace{-15pt}
-          \resumeItemListEnd
-        %   CODE FORCES DIARY PROJECT
-          \resumeProjectHeading
-              {\textbf{Mental Health Discord Bot} \href{}{\textbf{\textcolor{gray}{}}}
-               \href{}{\textbf{\textcolor{lightblue}{}}}}{Jan'23}
-              \resumeItemListStart
-                \resumeItem{JavaScript based discord bot that assists in bettering the users' mental health}
-                \resumeItem{Repository : https://github.com/SukritSethi/Mental-Health-Bot}
-                \resumeItem{\textcolor{blue}{Tech Stack} \emph{NodeJs, DiscordJs}}
-              \resumeItemListEnd           
-              \resumeSubHeadingListEnd
-\vspace{-15pt}
-
-
 %-------------IKARUS-------------------
 \section{\Large \textcolor{blue}{Experience}}
-     \vspace{-5pt}
+     \vspace{-10pt}
     \resumeSubHeadingListStart
       \resumeProjectHeading
           {\textbf{Ikarus3D} \href{    }{\textbf{\textcolor{gray}{}}}
+          {Software Developer Associate(Intern)}
+          {\href{https://leetcode.com/SukritSethi/}{\underline{\textbf{LOR}}}}
+          
           \href{}{\textbf{\textcolor{lightblue}{}}}}{Jun 2022- Nov 2022}
           \resumeItemListStart
             \resumeItem{  Designed and developed the first MVP iteration of the organization’s new venture, ”Ikarus Nest”. Worked in \textbf{Figma},
 \textbf{ReactJs} and \textbf{Django}.}
             \resumeItem{Handled the containerization and deployment of the MVP. Used \textbf{Docker} and \textbf{Amazon Web Services}.}
             \resumeItem{Developed custom web-components to be integrated in Nest. Worked in \textbf{ReactJs} and \textbf{Typescript}.}
-            \resumeItem{\textcolor{blue}{Tech Stack} \emph{Typescript, ReactJS, Redux, Django Rest Framework, Material UI, Figma, Docker, AWS}}
+            \resumeItem{Worked closely with the CEO and the business team, refining the business model}
+            \resumeItem{\textcolor{blue}{Tech Stack} \emph{Typescript, ReactJS, Redux, Django Rest Framework, JWT, Material UI, Figma, Docker, AWS}}
              \vspace{-5pt}
           \resumeItemListEnd       
           
@@ -260,34 +207,92 @@
 
 
 
+%-----------PROJECTS-----------
+\section{\Large \textcolor{blue}{Projects}}
+     \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Cricket Data Dashboard}   \href{}{\textbf{\textcolor{gray}{}}}
+           \href{}{\textbf{\textcolor{lightblue}{}}}}{}
+          \resumeItemListStart
+          \vspace{3pt}
+            \resumeItem{End-to-end cricket data analytics project made using Web Scraping, Python, Pandas and Power BI}
+            \resumeItem{Repository: https://github.com/SukritSethi/CricketDashboard}
+            \resumeItem{\textcolor{blue}{Tech Stack} \emph{Python, Pandas, PowerBI}}
+            
+            
+            \vspace{-5pt}
+          \resumeItemListEnd
+    \vspace{-6pt}
+      \resumeProjectHeading
+          {\textbf{Google Docs Clone} \href{    }{\textbf{\textcolor{gray}{}}}
+          \href{}{\textbf{\textcolor{lightblue}{}}}}{}
+          \resumeItemListStart
+          \vspace{3pt}
+            \resumeItem{ Learnt about web sockets and built a clone of Google Docs, with simultaneous editing of a document by different users allowing for collaborative work}
+            \resumeItem{Repository: https://github.com/SukritSethi/docs-Clone}
+            \resumeItem{\textcolor{blue}{Tech Stack} \emph{ReactJs, NodeJs, ExpressJs, Socket.io, MongoDB, Quill}}
+          \resumeItemListEnd
+        %   CODE FORCES DIARY PROJECT
+          \vspace{-7pt}
+          \resumeProjectHeading
+              {\textbf{ Finding Habitable Exoplanets using NASA and Caltech's Planetary Systems Composite Data} \href{}{\textbf{\textcolor{gray}{}}}
+               \href{}{\textbf{\textcolor{lightblue}{}}}}{}
+              \resumeItemListStart
+              \vspace{1pt}
+                \resumeItem{Conducted data cleaning, preprocessing, and exploratory analysis on a dataset, employing logistic regression and random forest classifiers for categorizing exoplanet habitability, thus acquiring experience in large dataset analysis and predictive data science modeling}
+                \resumeItem{Repository : https://github.com/SukritSethi/HabitablePlanets}
+                \resumeItem{\textcolor{blue}{Tech Stack} \emph{Pandas, Numpy, Matplotlib, Seaborn}}
+              \resumeItemListEnd           
+              \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
 %-----------EXPERIENCE-----------
 \section{\Large \textcolor{blue}{Positions of Responsibility}}
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {OWASP}{}
-      {Logistics Secretary}{}
-      \vspace{+1pt}
+      {OWASP \emph{Logistics Secretary} }{}
+      % {Logistics Secretary}{}
+      \vspace{}
       \resumeItemListStart
-        \resumeItem{Helped organize HackOwasp4.0, an MLH partner hackathon}
-        \resumeItem{Contributed to society's open source projects}
+      \vspace{-10pt}
+        \resumeItem{Organized a national hackathon with 1000+ participants and secured international sponsors for our events}
+        \resumeItem{Handled day-to-day logistics, ranging from team meets to hosting speaker sessions with VIP guests}
+        \resumeItem{Hosted online speaker sessions and live sessions with 400+ attendees}
         \resumeItem{Conducted workshops to teach juniors about tools such as Git and GitHub}
         \resumeItemListEnd
-        
-         \vspace{+5pt}
-     
+    
+      
+    
         %-----------PROGRAMMING SKILLS-----------
+        \section{\textcolor{blue}{Achievements}}
+            \vspace{-5pt}
+        \begin{itemize}[leftmargin=0.0in, label={}]
+              \normalsize{\item{
+              \vspace{2pt}
+              \textbf{}{Awarded the scholarship by the Thapar in first year} \\
+        	 \vspace{2pt}
+              \textbf{}{Winner at HoyaHacks Hackathon (hosted by Georgetown University} \\
+        	\vspace{2pt}
+              \textbf{}{Finalist at BITS BioNest (prestigious biology hackathon hosted by BITS Pilani) with AI driven startup idea “FIT.”} \\
+            
+        \end{itemize}
+
+        \vspace{-15pt}
         \section{\textcolor{blue}{Technical Skills}}
-            \vspace{2pt}
+            \vspace{-5pt}
         \begin{itemize}[leftmargin=0.0in, label={}]
               \normalsize{\item{
               \textbf{Languages}{: JavaScript, TypeScript, HTML/CSS, C++, C\#, SQL, Python} \\
         	 \vspace{4pt}
+              \textbf{Analytical Tools}{: MS Excel, MS Powerpoint, PowerBI, Pandas} \\
               \textbf{Developer Tools}{: VS Code, Vim, Git, GitHub, Matlab, Unity3D, Figma} \\
         	\vspace{4pt}
               \textbf{Technologies/Frameworks}{: React, Node, Express, Django, Firebase, MongoDB, Flask, Docker, Nginx} \\
             \vspace{4pt}
-              \textbf{Coding Profile}{: \href{https://leetcode.com/SukritSethi/}{\underline{\textbf{\textcolor{lightblue}{Leetcode}}}} \href{}{\underline{\textbf{\textcolor{lightblue}{}}}} } \\
+              \textbf{Coding Profile}{: \href{https://leetcode.com/SukritSethi/}{\underline{\textbf{\textcolor{lightblue}{Leetcode}}}} \href{}
             }}
         \end{itemize}
     \end{document}
